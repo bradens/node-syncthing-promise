@@ -1,0 +1,30 @@
+{
+  "name": "node-syncthing-promise",
+  "version": "1.0.0",
+  "description": "Promise based wrapper around the node-syncthing api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bradens/node-syncthing-promise.git"
+  },
+  "keywords": [
+    "syncthing",
+    "sync",
+    "promise",
+    "node"
+  ],
+  "author": "Braden Simpson (@bradens)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bradens/node-syncthing-promise/issues"
+  },
+  "homepage": "https://github.com/bradens/node-syncthing-promise#readme",
+  "dependencies": {
+    "bluebird": "^3.0.6",
+    "lodash": "^3.10.1",
+    "node-syncthing": "bradens/node-syncthing"
+  }
+}
